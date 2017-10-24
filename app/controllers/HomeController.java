@@ -1,5 +1,5 @@
 package controllers;
-
+import views.html.*;
 import play.mvc.*;
 
 /**
@@ -15,7 +15,15 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok("Hello World");
+        return ok(index.render());
+    }
+
+    public Result about() {
+        return ok(about.render());
+    }
+
+    public Result products() {
+        return ok(products.render());
     }
 
 }

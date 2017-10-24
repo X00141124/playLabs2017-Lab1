@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wdd/webapps/playapps/helloworld/conf/routes
-// @DATE:Fri Oct 20 15:31:17 IST 2017
+// @SOURCE:/home/wdd/webapps/playLabs2017-Lab1/conf/routes
+// @DATE:Tue Oct 24 15:43:40 IST 2017
 
 package controllers;
 
